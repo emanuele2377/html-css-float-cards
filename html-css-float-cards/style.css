@@ -1,0 +1,36 @@
+
+
+body{
+    text-align: center;
+     font-family: sans-serif;
+}
+
+.colore{
+    color:#d10f8d;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.col{
+    
+	width: calc(100% / 3);
+	
+    
+}
+
+.marco{
+    vertical-align: 100px;
+    width: 100px;
+    float:left;
+    padding: 150px;
+}
+
+.vicino{
+    padding-inline-start: x;
+    padding-bottom: x;
+    
+    
+}
