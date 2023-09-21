@@ -1,36 +1,48 @@
-
-
-body{
+body {
     text-align: center;
-     font-family: sans-serif;
+    font-family: sans-serif;
 }
 
-.colore{
-    color:#d10f8d;
+.colore {
+    color: #d10f8d;
 }
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
 }
 
-.col{
-    
-	width: calc(100% / 3);
-	
-    
-}
+.columnImg {
 
-.marco{
-    vertical-align: 100px;
     width: 100px;
-    float:left;
-    padding: 150px;
+    float: left;
+    
 }
 
-.vicino{
-    padding-inline-start: x;
-    padding-bottom: x;
-    
+.col {
+    float: left;
+    width: calc(100% / 4);
+    padding: 10px;
     
 }
+
+.clearfix ::after {
+    
+    
+    content: "";
+	clear: both;
+	display: table;
+    display: inline;
+    
+
+}
+
+.scritte {
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+
+}
+
